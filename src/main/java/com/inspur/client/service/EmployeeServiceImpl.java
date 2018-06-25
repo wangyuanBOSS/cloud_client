@@ -12,8 +12,8 @@ public class EmployeeServiceImpl implements EmployeeService{
     EmployeeMapper employeeMapper;
 
     @Override
-    public Employee getEmpById(Integer id) {
+    public Employee getEmpById(String username) {
 
-        return employeeMapper.getEmpById(id);
+        return employeeMapper.getEmpById(username);
     }
 }

@@ -4,5 +4,5 @@ import com.inspur.client.pojo.Employee;
 
 public interface EmployeeService {
 
-    public Employee getEmpById(Integer id);
+    public Employee getEmpById(String username);
 }

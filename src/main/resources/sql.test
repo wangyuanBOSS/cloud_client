@@ -5,11 +5,11 @@ CREATE TABLE `employee` (
   `lastName` VARCHAR(255) DEFAULT NULL,
   `email` VARCHAR(255) DEFAULT NULL,
   `gender` INT(2) DEFAULT NULL,
-  `d_id` INT(11) DEFAULT NULL,
+  `house` INT(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=INNODB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 /* 插入数据 */
 
-INSERT  INTO `employee`(`id`,`lastName`,`email`,`gender`,`d_id`) VALUES (1,'张三','333@qq.com',23,331232),
-(2,'李四','444@qq.com',26,2534324),(3,'王五','555@qq.com',28,3245234);
+INSERT  INTO `employee`(`id`,`lastName`,`email`,`gender`,`house`) VALUES (1,'zhangsan','333@qq.com',23,2),
+(2,'qianlong','444@qq.com',26,0);

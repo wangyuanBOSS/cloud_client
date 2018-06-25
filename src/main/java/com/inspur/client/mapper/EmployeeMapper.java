@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Select;
 //@Mapper或者@MapperScan将接口扫描装配到容器中
 @Mapper
 public interface EmployeeMapper {
-    @Select("select * from employee where id=#{id}")
-    public Employee getEmpById(Integer id);
+    @Select("select house from employee where lastName=#{lastName}")
+    public Employee getEmpById(String lastName);
 
 }

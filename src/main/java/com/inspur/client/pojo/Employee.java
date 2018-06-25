@@ -7,7 +7,7 @@ public class Employee {
     private String lastName;
     private Integer gender;
     private String email;
-    private Integer d_id;
+    private Integer house;
 
     public void setId(Integer id) {
         this.id = id;
@@ -25,8 +25,8 @@ public class Employee {
         this.email = email;
     }
 
-    public void setdId(Integer d_id) {
-        this.d_id = d_id;
+    public void setdId(Integer house) {
+        this.house = house;
     }
 
     public Integer getId() {
@@ -45,7 +45,7 @@ public class Employee {
         return email;
     }
 
-    public Integer getdId() {
-        return d_id;
+    public Integer getHouse() {
+        return house;
     }
 }
